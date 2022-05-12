@@ -352,6 +352,7 @@ ul{
 	.container{
 		width: 550px
 	}
+	.header{ width: 100%;}
 	.form{
 		width: 675px
 	}
@@ -423,6 +424,7 @@ ul{
 	.container{
 		width: 450px;
 	}
+	.header{ width: 100%;}
 	.form{
 		display: flex;
 		flex-direction: column;
@@ -442,6 +444,9 @@ ul{
 	.container{
 		width: 300px;
 	}
+	
+	.header{ width: 100%;}
+	
 	.form{
 		display: flex;
 		flex-direction: column;
