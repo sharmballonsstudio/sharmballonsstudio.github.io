@@ -352,7 +352,6 @@ ul{
 	.container{
 		width: 550px
 	}
-	.header{ width: 100%;}
 	.form{
 		width: 675px
 	}
@@ -422,9 +421,8 @@ ul{
 
 @media screen and (max-width: 480px){
 	.container{
-		width: 450px;
+		width: 480px;
 	}
-	.header{ width: 100%;}
 	.form{
 		display: flex;
 		flex-direction: column;
@@ -442,11 +440,8 @@ ul{
 }
 @media screen and (max-width: 320px){
 	.container{
-		width: 300px;
+		width: 320px;
 	}
-	
-	.header{ width: 100%;}
-	
 	.form{
 		display: flex;
 		flex-direction: column;
@@ -489,4 +484,116 @@ ul{
 		width: 180px;
 		height: 50px
 	}
+}
+
+@media screen and (max-width: 239px){
+	.container{
+		width: 239px
+	}
+	.card{
+		width: 239px;
+		margin-left: -100px;
+		margin-top: 60px;
+		height: auto
+
+	}
+
+	header{
+		width: 239px
+	}
+
+	.img__card{
+		width: 239px;
+		height: 100px;
+		margin: 0 auto;
+		margin-left: -55px
+	}
+	.wrp{
+		margin-left: -100px
+	}
+	.h__card{
+		text-align: center;
+		font-size: 18px;
+	}
+	.price{
+		text-align: center
+	}
+	.btn_card{
+		display: block;
+		margin: 0 auto;
+
+	}
+	.woman{
+	background: #FED84C;
+	border-radius: 100%;
+	width: 239px;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+}
+
+.woman_img{
+	width: 239px;
+	height: 260px;
+}
+
+.name{
+	width: 239px
+}
+
+.form{
+	width: 239px
+}
+.wrp__form{
+	display: flex;
+	flex-direction: column;
+}
+.logo__form{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto
+}
+.card{
+	margin: 0 auto
+}
+}
+
+@media screen and (max-width: 400px){
+	.container{
+		width: 400px
+	}
+	.card{
+		width: 300px;
+		height: auto;
+		margin-top: 30px;
+		margin-left: -100px
+	}
+	.img__card{
+		width: 300px;
+		height: 150px
+	}
+	.wrp{
+		margin: 0 auto;
+		width: 300px
+	}
+	.form{
+		width: 300px;
+		height: auto
+	}
+	.h1__3{
+		font-size: 20px;
+	}
+	.wrp__form{
+	display: flex;
+	flex-direction: column;
+}
+.logo__form{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto
+}
+.card{
+	margin: 0 auto
+}
 }
